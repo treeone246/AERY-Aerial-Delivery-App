@@ -86,10 +86,10 @@ function toRad(Value)
         function sendEmail() {
             Email.send({
             Host: "smtp.gmail.com",
-            Username : "aeryuser@gmail.com",
-            Password : "aerialdelivery123",
+            Username : "penggunaaery@gmail.com",
+            Password : "brawijaya123",
             To : 'aery.order@gmail.com',
-            From : "aeryuser@gmail.com",
+            From : "penggunaaery@gmail.com",
             Subject : "ORDER",
             Body :  "Nama: "+document.getElementById("name").value+
                     " || Email : "+document.getElementById("email").value+
